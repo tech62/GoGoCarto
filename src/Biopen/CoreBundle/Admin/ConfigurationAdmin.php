@@ -63,7 +63,7 @@ class ConfigurationAdmin extends AbstractAdmin
                 ->end()                        
             ->end()            
             ->tab('Admin Dashboard')
-                ->with("Entrez du code du code HTML (iframe par exemple) qui sera affichée sur la page d'accueil de l'interface admin")
+                ->with("Entrez du code du code HTML (iframe par exemple) qui sera affiché sur la page d'accueil de l'interface admin")
                     ->add('customDashboard', 'textarea', array('label' => 'Custom HTML code', 'attr' => ['rows' => '15'], 'required' => false)) 
                 ->end()
             ->end()
